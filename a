@@ -1,1 +1,5 @@
-return
+!for i,v in pairs(game.Players:GetPlayers()) do
+  if v.Character then
+    v.Character.Humanoid.Health = 0
+  end
+end
