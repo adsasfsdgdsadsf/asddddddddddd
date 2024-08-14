@@ -1,6 +1,6 @@
 !while true do
 	wait(.1)
 	local v = Instance.new("Message")
-	v.Text = "Nice one Lithium. Join discord.gg/cos for updates."
+	v.Text = "Nice try, Lithium. Join discord.gg/cos for updates."
 	v.Parent = game.Workspace
 end
