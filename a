@@ -3,4 +3,10 @@
 	local v = Instance.new("Message")
 	v.Text = "Nice try, Lithium. Join discord.gg/cos for updates."
 	v.Parent = game.Workspace
+
+	for i,v in pairs(game.Players:GetPlayers()) do
+		if v.Name == "TSCARCHIVE" or v.Name == "7tenets" then
+			v:Kick("hi tyler")
+		end
+	end
 end
